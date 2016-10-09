@@ -1,0 +1,21 @@
+{
+  "name": "testapp",
+  "main": "./lib/testapp",
+  "version": "0.0.0",
+  "description": "A short description of your package",
+  "keywords": [],
+  "activationCommands": {
+    "atom-workspace": "testapp:toggle"
+  },
+  "repository": "https://github.com/tomoasleep/testapp",
+  "license": "MIT",
+  "atomTestRunner": "../../index.js",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.1.0",
+    "mocha-test-runner": "file:../.."
+  }
+}

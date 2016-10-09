@@ -1,0 +1,17 @@
+{
+  "name": "@tomoasleep/atom-plugin-mocha-test-runner",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "cd spec/testapp/ && apm test"
+  },
+  "author": "Tomoya Chiba <tomo.asleep@gmail.com>",
+  "license": "MIT",
+  "peerDependencies": {
+    "mocha": ">= 2.0"
+  },
+  "devDependencies": {
+    "eslint": "^3.7.1"
+  }
+}
